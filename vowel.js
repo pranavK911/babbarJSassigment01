@@ -1,6 +1,6 @@
 // //-------reverse string-------------//
 
-function rev_string(name){
+function vowel(name){
    let nam= name.toLowerCase();
     let count=0;
     for(let i=0;i<nam.length;i++){
@@ -27,4 +27,4 @@ function rev_string(name){
     }
     return count;
 }
-console.log(rev_string("pranav"));
+console.log(vowel("pranav"));
