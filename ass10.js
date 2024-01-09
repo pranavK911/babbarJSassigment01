@@ -9,8 +9,8 @@ function common(arr1,arr2){
         }
     }
   }
-  console.log(arr);
+ return arr;
 }
-let arr1=[1,3,4,5,6];
-let arr2=[2,3,6,4,5,1];
-common(arr1,arr2);
+let arr1=[7,1,3,4,5,6];
+let arr2=[2,3,6,4,5,1,9,7];
+console.log(common(arr1,arr2));
